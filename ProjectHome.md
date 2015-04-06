@@ -1,0 +1,16 @@
+# What is HATop? #
+
+HATop is an interactive ncurses client and real-time monitoring,
+statistics displaying tool for the [HAProxy](http://haproxy.1wt.eu/) TCP/HTTP load balancer.
+
+HATop's appearance is similar to top(1). It supports various modes for detailed statistics of all configured proxies and services in near realtime. In addition, it features an interactive CLI for the haproxy unix socket. This allows administrators to control the given haproxy instance (change server weight, put servers into maintenance mode, ...) directly out of hatop (using keybinds or the CLI) and monitor the results immediately.
+
+HATop is written in pure Python and has no external dependencies.
+
+It requires Python 2.4 or later and HAProxy 1.4 or later.
+
+## Screenshot ##
+
+[![](http://feurix.org/projects/hatop/google-screenshot.png)](http://feurix.org/projects/hatop/)
+
+<h3>Project Website: <a href='http://feurix.org/projects/hatop/'>http://feurix.org/projects/hatop/</a></h3>
